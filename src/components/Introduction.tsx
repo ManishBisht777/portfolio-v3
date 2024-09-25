@@ -29,7 +29,7 @@ export default function Introduction() {
 
       <div className="flex space-x-5">
         <div className="flex items-center justify-center gap-2">
-          <div className="p-1 bg-gradient-to-b from-cyan-600 to-indigo-600 rounded-md">
+          <div className="p-1 bg-gradient-to-b from-stone-800 to-pink-900 rounded-md">
             <Image
               src="/github-white.svg"
               width={16}
@@ -40,7 +40,7 @@ export default function Introduction() {
           Github
         </div>
         <div className="flex items-center justify-center gap-2">
-          <div className="p-1 bg-gradient-to-b from-cyan-600 to-indigo-600 rounded-md">
+          <div className="p-1 bg-gradient-to-b from-stone-800 to-pink-900 rounded-md">
             <Image
               src="/linkedin-white.svg"
               width={16}
@@ -51,7 +51,7 @@ export default function Introduction() {
           Linkedin
         </div>
         <div className="flex items-center justify-center gap-2">
-          <div className="p-1 bg-gradient-to-b from-cyan-600 to-indigo-600 rounded-md">
+          <div className="p-1 bg-gradient-to-b from-stone-800 to-pink-900 rounded-md">
             <Image
               src="/mail-white.png"
               width={16}

@@ -18,14 +18,13 @@ export default function ProjectCard({}: ProjectCardProps) {
   return (
     <motion.div onClick={() => setIsSelected(!isSelected)}>
       {/* a empty placeholder so that it doesn't affect layout  */}
-
       {isSelected && (
-        <div className="w-[360px] h-[244px] bg-red-400 rounded-lg "></div>
+        <div className="w-full h-[244px] bg-red-400 rounded-lg "></div>
       )}
 
       <div
         className={`rounded-lg overflow-hidden border border-gray-100 cursor-pointer ${
-          isSelected ? "mt-4 absolute" : "w-[360px] "
+          isSelected ? "mt-4 absolute" : "w-full "
         }`}
       >
         <div className="bg-gray-100 p-2 flex gap-2">
