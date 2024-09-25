@@ -20,9 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${monaSans.className} antialiased bg-[#fbfbfb] min-h-screen flex place-content-center md:pt-36 pt-10`}
+        className={`${monaSans.className} antialiased bg-[#fbfbfb] min-h-screen flex place-content-center md:py-36 pt-10`}
       >
-        <section className="max-w-2xl w-full">{children}</section>
+        <section className="max-w-3xl w-full">{children}</section>
       </body>
     </html>
   );

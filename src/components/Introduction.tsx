@@ -20,7 +20,7 @@ export default function Introduction() {
           <p className="text-gray-600">Software Engineer</p>
         </div>
       </div>
-      <p>
+      <p className="text-gray-500">
         full-stack Developer with 2+ years of experience in building scalable
         web apps using React. Worked with 2 Startups and teams that are highly
         skilled to create a customer-centric product. helped a lot of people in
